@@ -1,4 +1,4 @@
-group = "com.example" // TODO: Change this to your group
+group = "ru.cactus_studio" // TODO: Change this to your group
 version = "1.0-SNAPSHOT" // TODO: Change this to your addon version
 
 plugins {
@@ -19,9 +19,12 @@ dependencies {
 }
 
 addon {
-    name = project.name.replaceFirstChar(Char::uppercase)
+    name = "Advanced HUD"
+    description = "Advanced HUD is a plugin for minecraft made based on Nova."
+    prefix = "Advanced HUD"
     version = project.version.toString()
-    main = "com.example.ExampleAddon" // TODO: Change this to your main class
+    main = "ru.cactus_studio.advanced_hud.AdvancedHUD" // TODO: Change this to your main class
+    authors = listOf("vishenka425150")
     
     // output directory for the generated addon jar is read from the "outDir" project property (-PoutDir="...")
     val outDir = project.findProperty("outDir")

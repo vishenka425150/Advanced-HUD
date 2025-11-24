@@ -1,4 +1,4 @@
-rootProject.name = "example" // TODO: Change this to your addon id
+rootProject.name = "advanced_hud" // TODO: Change this to your addon id
 
 dependencyResolutionManagement {
     repositories {
